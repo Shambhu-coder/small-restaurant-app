@@ -1,0 +1,26 @@
+.dish {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dish img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter button {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.custom {
+  color: blue;
+}

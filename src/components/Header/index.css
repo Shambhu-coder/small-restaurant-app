@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon {
+  position: relative;
+  margin-left: 10px;
+}
+
+.cart-icon span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: orange;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+}
